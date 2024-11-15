@@ -1,0 +1,306 @@
+.sectionAbout {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #1e1e2d;
+}
+
+.mainText {
+    margin: 0 auto;
+    width: max-content;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #c64c8d;
+    margin-bottom: 24px;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.imageMe {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+    filter: drop-shadow(0px, 0px, 3px #bd769c);
+}
+
+.divContent {
+    max-width: 360px;
+    width: 100%;
+    background-color: #bd769c;
+    padding: 24px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textSkils {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    width: 290px;
+    margin: 0 auto 12px auto;
+    text-align: center;
+}
+
+.descrAbout {
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.listMe {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.span {
+    font-weight: 600;
+    color: #dddddd;
+}
+
+.divAchi {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 16px 8px;
+    border-radius: 20px;
+}
+
+.textAchi {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(245, 245, 245, 0.921);
+    text-shadow: 0 0 10px rgba(228, 95, 245, 0.9), 0 0 20px rgba(228, 95, 245, 0.8);
+}
+
+.descrAchi {
+    width: 100%;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: auto;
+    color: #dddddd;
+    width: max-content;
+    margin: 0;
+}
+
+.listAchi {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.itemAchi {
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 0 2px rgba(178, 118, 189, 0.9), 0 0 16px rgba(178, 118, 189, 0.8);
+}
+
+.icon {
+    display: none;
+}
+
+.divImages {
+    display: none;
+}
+
+.imageSkills {
+    display: none;
+}
+
+.ribbon {
+    position: absolute;
+    right: 12px;
+    top: -64px;
+}
+
+@media screen and (min-width: 768px) {
+    .sectionAbout {
+        padding-top: 80px;
+    }
+
+    .mainText {
+        font-size: 34px;
+        font-weight: 700;
+        margin-bottom: 32px;
+    }
+
+    .imageMe {
+        margin: 0;
+    }
+    
+
+    .divContent {
+        padding: 18px 20px;
+        margin: 0;
+        height: 100%;
+    }
+
+    .textSkils {
+        font-size: 26px;
+        width: 100%;
+        margin: 0 auto 8px auto;
+    }
+
+    .descrAbout {
+        font-size: 20px;
+    }
+    
+    .listMe {
+        margin-bottom: 16px;
+    }
+
+    .divContainer {
+        flex-direction: row;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .divAchi {
+        max-width: 768px;
+        padding: 16px 24px;
+        border-radius: 20px;
+        margin-top: 40px;
+    }
+
+    .textAchi {
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+    .descrAchi {
+        font-size: 22px;
+    }
+
+    .itemAchi {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .icon {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .sectionAbout {
+        padding-top: 60px;
+    }
+
+    .mainText {
+        font-size: 42px;
+        margin-bottom: 60px;
+    }
+
+    .imageMe {
+        max-width: 540px;
+    }
+
+    .divContent {
+        max-width: 814px;
+        padding: 32px;
+        height: max-content;
+    }
+
+    .divImages {
+        display: block;
+        width: 814px;
+        display: flex;
+        gap: 15px;
+        margin-top: 14px;
+    }
+    .textAchi {
+        margin-bottom: 28px;
+    }
+
+    .imageReview {
+        height: 100%;
+        width: auto;
+        transition: transform 0.4s linear;
+    }
+    
+    .imageReview:hover {
+        transform: scale(1.2);
+    }
+    .divAchi {
+        max-width: 1440px;
+    }
+
+    .descrAchi {
+        font-size: 20px;
+        align-self: center;
+    }
+
+    .listAchi {
+        gap: 16px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(1) {
+        margin-left: 280px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(2) {
+        margin-left: 320px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(3) {
+        margin-left: 280px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(4) {
+        margin-left: 240px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(5) {
+        margin-left: 280px;
+        width: max-content;
+    }
+
+    .listAchi li:nth-child(6) {
+        margin-left: 320px;
+        width: max-content;
+    }
+
+    .divSkills {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .imageReviewContainer {
+        height: 500px;
+        width: 100%;
+        border: 2px solid rgba(189, 118, 156, 0.8);
+        border-radius: 12px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imageSkills {
+        display: block;
+        width: 520px;
+        border-radius: 12px;
+        box-shadow: 0 0 6px rgba(178, 118, 189, 0.9), 0 0 20px rgba(178, 118, 189, 0.8);
+    }
+}

@@ -1,0 +1,155 @@
+.headerSection {
+    position: absolute;
+    max-width: 425px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 22px;
+    background-color: rgba(151, 151, 151, 0.116);
+}
+
+.listHeaderOne {
+    display: none;
+    opacity: 0;
+}
+
+.languageSwitch {
+    background-color: transparent;
+    border: none;
+    width: 48px;
+    height: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fdd4d4;
+    text-transform: uppercase;
+    border: 2px solid #fdd4d4;
+    border-radius: 12px;
+}
+
+
+.listButton {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.insta {
+    width: 40px;
+}
+
+.burgerExit {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.burgerExit img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.burger {
+    background: none;
+    border: none;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.burger img {
+    width: 40px;
+    height: 40px;
+}
+
+.hrefImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navHeader {
+    transition: transform 0.5s ease, opacity 0.5s ease, background-color 0.5s linear;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 100;
+    padding: 12px;
+}
+
+.navClosed {
+    transform: translateX(240px); 
+    opacity: 0;
+    pointer-events: none;
+}
+
+.navOpen {
+    transform: translateX(0%); 
+    opacity: 1;
+    background-color: rgb(235, 198, 255);
+}
+
+.listHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 32px 0px;
+    padding: 0PX 8PX;
+}
+
+.listHeader li a {
+    width: max-content;
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #c64c8d;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    .headerSection {
+        max-width: 768px;
+        padding: 0 40px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .headerSection {
+        max-width: 1440px;
+        padding: 0 90px;
+    }
+
+    .burger {
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .listHeaderOne {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 180px;
+        opacity: 1;
+    }
+
+    .listHeaderOne li a {
+        width: max-content;
+        font-family: "Quicksand", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #ff7ce5;
+    }
+}

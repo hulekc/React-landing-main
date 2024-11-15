@@ -1,0 +1,277 @@
+.sectionPak {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #1e1e2d;
+}
+
+.containerPak {
+    max-width: 360px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.textPakiety {
+    margin: 0 auto;
+    width: max-content;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #734af8;
+    margin-bottom: 48px;
+}
+
+.listPak {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.listPak li {
+    border-radius: 12px;
+    padding: 8px 16px 24px 18px;
+    position: relative;
+    padding-top: 36px;
+    background-repeat: no-repeat;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listPak li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.listPak li:nth-child(1) {
+    background-image: url("../../assets/images/reviews/ellipse_two.png");
+    background-size: -40% 200%;
+    background-position: right;
+    border: 3px solid rgb(251, 192, 115);
+    box-shadow: 0 4px 8px rgba(251, 192, 115, 0.4); 
+}
+
+.listPak li:nth-child(1):hover {
+    box-shadow: 0 8px 16px rgba(251, 192, 115, 0.6), 0 12px 24px rgba(251, 192, 115, 0.5);
+}
+
+.listPak li:nth-child(2) {
+    background-image: url("../../assets/images/reviews/ellipse_two.png");
+    background-size: -40% 200%;
+    background-position: right;
+    border: 3px solid silver;
+    box-shadow: 0 4px 8px rgba(192, 192, 192, 0.4); 
+}
+
+.listPak li:nth-child(2):hover {
+    box-shadow: 0 8px 16px rgba(192, 192, 192, 0.6), 0 12px 24px rgba(192, 192, 192, 0.5);
+}
+
+.listPak li:nth-child(3) {
+    background-image: url("../../assets/images/reviews/ellipse_two.png");
+    background-size: -40% 200%;
+    background-position: right;
+    border: 3px solid gold;
+    box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4); 
+}
+
+.listPak li:nth-child(3):hover {
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.6), 0 12px 24px rgba(255, 215, 0, 0.5);
+}
+
+.listPak li p {
+    font-size: 18px;
+    font-weight: 400;
+    color: whitesmoke;
+    margin: 0;
+}
+
+.listPak li a {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0px 0px 16px 0px;
+    color: black;
+    position: absolute;
+    top: -16px;
+    left: 18px;
+    cursor: pointer;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: rgba(245, 245, 245, 0.926);
+}
+
+.listPak li a.linkPakGold {
+    background-color: gold;
+}
+
+.listPak li a.linkPakSilver {
+    background-color: silver;
+}
+
+.listPak li a.linkPakBronze {
+    background-color: rgb(251, 192, 115);
+}
+
+.bonus {
+    font-weight: 700 !important;
+    text-shadow: 0 0 10px rgba(228, 95, 245, 0.9), 0 0 20px rgba(228, 95, 245, 0.8) !important;
+}
+
+.gift {
+    width: 36px;
+    height: 36px;
+}
+
+.megaBox {
+    border-top: 2px solid gold;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.megaBoxSilver {
+    border-top: 2px solid silver;
+    padding-top: 4px;
+    margin-top: 10px;
+}
+
+.boxGift {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.divBuy {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.priceSmall {
+    font-size: 22px;
+    margin: 0;
+    color: red !important;
+    font-weight: 600;
+    text-decoration: line-through;
+    text-align: end;
+    padding-right: 16px;
+    margin-top: 12px;
+}
+
+.descrBuy {
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: rgb(41, 38, 38) !important;
+    padding: 4px 8px;
+    border-radius: 12px;
+} 
+
+.bronze {
+    background-color: rgb(251, 192, 115);
+}
+
+.silver {
+    background-color: silver;
+}
+
+.gold {
+    background-color: gold;
+}
+
+.button3D {
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #5f2ed2;
+    border-radius: 12px;
+    box-shadow: 0px 5px 0px #4321a6, 0px 10px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.button3D:active {
+    transform: translateY(5px);
+    box-shadow: 0px 2px 0px #4321a6, 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.spanBuy {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .sectionPak {
+        padding: 0px 16px 40px 16px;
+    }
+    
+    .containerPak {
+        max-width: 720px;
+    }
+    
+    .textPakiety {
+        font-size: 32px;
+    }
+    
+    .listPak {
+        display: flex;
+        gap: 48px;
+    }
+        
+    .listPak li {
+        height: max-content;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    }
+
+    
+    .listPak li p {
+        font-size: 20px;
+    }
+
+    .listPak li a {
+        font-size: 24px;
+    }
+    
+}
+
+@media screen and (min-width: 1440px) {
+    .sectionPak {
+        padding: 0px 32px 60px 32px;
+    }
+
+    .containerPak {
+        max-width: 1440px;
+    }
+    
+    .textPakiety {
+        font-size: 32px;
+    }
+    
+    .listPak {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+        
+    .listPak li {
+        width: 438px;
+        height: max-content;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19); 
+    }
+
+    .listPak li p {
+        font-size: 20px;
+    }
+
+    .listPak li a {
+        font-size: 24px;
+    }
+    
+}

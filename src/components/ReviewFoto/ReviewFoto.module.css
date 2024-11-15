@@ -1,0 +1,147 @@
+.section {
+  width: 100%;
+  padding: 0 0 40px 0;
+  background-color: #1e1e2d;
+}
+
+.container {
+  max-width: 420px;
+  width: 100%;
+}
+
+.imageItem {
+  border-radius: 12px;
+  width: 360px;
+  border: 2px solid #c64c8d;
+  object-fit: cover;
+  height: 572px;
+}
+
+.sectionsTitle {
+  margin: 0 auto;
+  width: max-content;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #c64c8d;
+  margin-bottom: 24px;
+}
+
+.projectsList {
+  margin-bottom: 32px;
+  width: 360px;
+}
+
+.projectsListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttonsThumb {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.btnSvgRight {
+  transform: scale(-1, 1);
+}
+
+.swipeBtnProjects {
+  background-color: transparent;
+  border: 1px solid #c64c8d;
+  border-radius: 60px;
+  padding: 14px;
+  width: 52px;
+  height: 52px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btnSvg {
+  stroke: #c64c8d;
+  width: 24px;
+  height: 24px;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swipeBtnProjects:hover {
+  border: 1px solid #98185c;
+}
+
+.swipeBtnProjects:disabled {
+  border: 1px solid rgba(250, 250, 250, 0.2);
+}
+
+.swipeBtnProjects:hover .btnSvg {
+  stroke: #98185c;
+}
+
+.swipeBtnProjects:disabled .btnSvg {
+  stroke: rgba(250, 250, 250, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 0 24px 60px 24px;
+  }
+  
+  .container {
+    max-width: 740px;
+    width: 100%;
+  }
+  
+  .imageItem {
+    width: 348px;
+  }
+  
+  .sectionsTitle {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
+  .projectsList {
+      margin-bottom: 64px;
+  }
+
+  .buttonsThumb {
+      gap: 20px;
+  }
+
+  .swipeBtnProjects {
+    width: 72px;
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnSvg {
+      width: 32px;
+      height: 32px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .section {
+    padding: 0 32px 60px 32px;
+  }
+  
+  .container {
+    max-width: 1440px;
+  }
+  
+  .imageItem {
+    width: 320px;
+  }
+
+  .projectsList {
+      margin-bottom: 56px;
+  }
+
+  .buttonsThumb {
+      gap: 24px;
+  }
+
+}

@@ -1,0 +1,38 @@
+:root {
+  font-family: "Quicksand", sans-serif, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #171520;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
